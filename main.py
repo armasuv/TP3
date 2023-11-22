@@ -95,8 +95,7 @@ def jeu():
 
            #Le mode de jeu normal avec les adversaires normals dans les corridors
            force_adversaire = random.randint(1, 10)
-           print("\nLa force de l'adversaire est de", force_adversaire,"\n1"
-                                                                       "")
+           print("\nLa force de l'adversaire est de", force_adversaire,"\n""")
            choix = int(input(menu()))
            if choix == 1:
                lancer_des = random.randint(1, 5)
